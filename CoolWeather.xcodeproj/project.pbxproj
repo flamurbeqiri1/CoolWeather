@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011668291F17FC3A003A2ADA /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011668281F17FC3A003A2ADA /* CurrentWeather.swift */; };
 		01A92EE71F141369008069BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A92EE61F141369008069BC /* AppDelegate.swift */; };
 		01A92EE91F141369008069BC /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A92EE81F141369008069BC /* WeatherVC.swift */; };
 		01A92EEC1F141369008069BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A92EEA1F141369008069BC /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		01A92EF11F141369008069BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A92EEF1F141369008069BC /* LaunchScreen.storyboard */; };
 		01A92EFC1F141369008069BC /* CoolWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A92EFB1F141369008069BC /* CoolWeatherTests.swift */; };
 		01A92F071F141369008069BC /* CoolWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A92F061F141369008069BC /* CoolWeatherUITests.swift */; };
+		01C4CD591F16C43A00217FCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4CD581F16C43A00217FCB /* Constants.swift */; };
 		FD6663D2FFEEBE1751CC6485 /* Pods_CoolWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8245162A7D7C9602AD639311 /* Pods_CoolWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011668281F17FC3A003A2ADA /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		01A92EE31F141369008069BC /* CoolWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A92EE61F141369008069BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01A92EE81F141369008069BC /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		01A92F021F141369008069BC /* CoolWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A92F061F141369008069BC /* CoolWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolWeatherUITests.swift; sourceTree = "<group>"; };
 		01A92F081F141369008069BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C4CD581F16C43A00217FCB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7854573574FAE63827E1F912 /* Pods-CoolWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolWeather/Pods-CoolWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		8245162A7D7C9602AD639311 /* Pods_CoolWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3AD15D05F8295BB8A80CF /* Pods-CoolWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolWeather/Pods-CoolWeather.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				01A92EED1F141369008069BC /* Assets.xcassets */,
 				01A92EEF1F141369008069BC /* LaunchScreen.storyboard */,
 				01A92EF21F141369008069BC /* Info.plist */,
+				011668281F17FC3A003A2ADA /* CurrentWeather.swift */,
+				01C4CD581F16C43A00217FCB /* Constants.swift */,
 			);
 			path = CoolWeather;
 			sourceTree = "<group>";
@@ -341,6 +347,8 @@
 			files = (
 				01A92EE91F141369008069BC /* WeatherVC.swift in Sources */,
 				01A92EE71F141369008069BC /* AppDelegate.swift in Sources */,
+				011668291F17FC3A003A2ADA /* CurrentWeather.swift in Sources */,
+				01C4CD591F16C43A00217FCB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
